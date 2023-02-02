@@ -1,0 +1,58 @@
+*{
+    background-color: black;
+    background-color:;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: crimson;
+    padding: 20px;
+}
+nav{
+    background-color:black;
+    display: grid;
+    place-items: center;z
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: red;
+    transition: 0.2s ease-in;
+    font-size: 18px;
+}
+nav ul a:hover{
+    background-color: white;
+    color: red;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 30px 20px;
+    gap: 20px;
+    row-gap: 30px;
+    color: red;
+}
+.item h4{
+    padding: 10px;
+    text-align: center;
+
+}
+.item button{
+    padding: 5px 30px;
+    background-color: tan;
+    color: red;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    text-align: center;
+}
+.item button:hover{
+    transform: scale(1.08);
+}
